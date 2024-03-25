@@ -8,9 +8,13 @@ All you have to do is:
 
 Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
 
-To import drafted deck into dreamborn.ink:
+To import a drafted deck into dreamborn.ink:
 1. In Draftmancer, copy drafted deck to clipboard using 'Export > CARD NAMES'.
-2. In dreamborn.ink , go to 'Deck Builder', then select 'Menu > Import', then paste clipboard into import text field, then select 'Import'.
+2. In dreamborn.ink, go to 'Deck Builder',
+3. select 'Menu > Import',
+4. paste clipboard into import text field,
+5. (OPTIONALLY, to remove sideboard) remove the bottom half that is separated from the top half by an empty line (the bottom half is your 'sideboard'), then
+6. select 'Import'.
 
 Using lorcana-api.com data, each card is assigned an ink cost.
 
