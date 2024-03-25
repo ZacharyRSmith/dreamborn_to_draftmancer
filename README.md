@@ -1,10 +1,14 @@
-I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft Lorcana, please let me know!
+I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft, please let me know at zacharysmith4989@gmail.com !
 
-All you have to do is:
+In order to draft as a non-host participant, you only need to:
+1. Pick your cards using Draftmancer, then
+2. copy & paste into dreamborn.ink , from where you'll probably export to pixelborn.
+
+The host(s) will need to:
 1. Export the draft list from dreamborn to clipboard,
 2. paste from clipboard into the bottom of a Draftmancer Custom Card List template,
 3. upload to Draftmancer as a Custom Card List, then
-4. copy/paste drafted decks back into dreamborn.
+4. host the draft in Draftmancer (see 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
 
 Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
 
