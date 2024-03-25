@@ -1,5 +1,9 @@
 I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft, please let me know at zacharysmith4989@gmail.com !
 
+A video tutorial on how to draft as either a non-host participant or a host: https://www.youtube.com/watch?v=lm1xPenIKQg
+
+If you'd rather read:
+
 In order to draft as a non-host participant, you only need to:
 1. Pick your cards using Draftmancer, then
 2. copy & paste into dreamborn.ink , from where you'll probably export to pixelborn.
@@ -9,15 +13,9 @@ The host(s) will need to:
     1. Export the draft list from dreamborn to clipboard,
     2. paste from clipboard into the bottom of a Draftmancer Custom Card List template,
     3. upload to Draftmancer as a Custom Card List, then
-2. host the draft in Draftmancer (see 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
+2. host the draft in Draftmancer (see either the video tutorial above or 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
 
 Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
-
-High resolution video tutorial: https://youtu.be/qBGFDhCT7wo
-
-Low resolution video tutorial:
-
-https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/assets/7988520/0c19dadb-00ae-44e3-96c3-2f8af3abd953
 
 To import a drafted deck into dreamborn.ink:
 1. In Draftmancer, copy drafted deck to clipboard using 'Export > CARD NAMES'.
@@ -26,6 +24,9 @@ To import a drafted deck into dreamborn.ink:
 4. paste clipboard into import text field,
 5. (OPTIONALLY, to remove sideboard) remove the bottom half that is separated from the top half by an empty line (the bottom half is your 'sideboard'), then
 6. select 'Import'.
+
+
+# Details
 
 Using lorcana-api.com data, each card is assigned an ink cost.
 
