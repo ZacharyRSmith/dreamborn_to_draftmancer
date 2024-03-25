@@ -20,6 +20,7 @@ from pathlib import Path
 import re
 
 API_DATA_FILEPATH = 'api_data.json'
+OUT_FILEPATH = 'draftmancer_custom_card_list_template.txt'
 
 parser = argparse.ArgumentParser(
                     prog='ProgramName',
@@ -138,16 +139,19 @@ def get_out(id_to_vals, name_to_card):
 
 
 def write_out(out):
-    with open('out.txt', 'w') as f:
+    with open(OUT_FILEPATH, 'w') as f:
         lines = [
             '[CustomCards]',
             json.dumps(out, indent=4),
+            '[Settings]',
+            json.dumps(
+                {
+                    'boostersPerPlayer': 4,
+                },
+                indent=4
+            ),
             f'[MainSlot(12)]',
         ]
-        for vals in id_to_vals.values():
-            lines.append(
-                f'{vals["count"]} {vals["name"]}'
-            )
         for line in lines:
             f.write(line + '\n')
 

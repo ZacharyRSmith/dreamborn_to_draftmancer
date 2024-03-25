@@ -14,6 +14,6 @@ To import drafted deck into dreamborn.ink:
 
 Using lorcana-api.com data, each card is assigned an ink cost. Rarity and other data could also be assigned with a one-line change to the python script that creates the template? If someone knows how Draftmancer expects rarity data, I or someone else can make that change then run the script to enhance the template.
 
-I tested this on all 612 cards using: https://dreamborn.ink/decks/Xk1wFdToEUoyeb1tvU6V
+I tested this on all 612 cards using: https://dreamborn.ink/decks/Xk1wFdToEUoyeb1tvU6V (saved to all_cards.txt on 2024-03-25).
 
 I successfully exported that into the template, uploaded to Draftmancer, drafted 24 cards, then imported to dreamborn.

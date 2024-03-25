@@ -4889,4 +4889,8 @@
         }
     }
 ]
+[Settings]
+{
+    "boostersPerPlayer": 4
+}
 [MainSlot(12)]
