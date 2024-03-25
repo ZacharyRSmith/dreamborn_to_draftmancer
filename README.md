@@ -8,6 +8,12 @@ All you have to do is:
 
 Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
 
+High resolution video tutorial: https://youtu.be/qBGFDhCT7wo
+
+Low resolution video tutorial:
+
+https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/assets/7988520/0c19dadb-00ae-44e3-96c3-2f8af3abd953
+
 To import a drafted deck into dreamborn.ink:
 1. In Draftmancer, copy drafted deck to clipboard using 'Export > CARD NAMES'.
 2. In dreamborn.ink, go to 'Deck Builder',
