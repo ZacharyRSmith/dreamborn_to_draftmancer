@@ -5,10 +5,11 @@ In order to draft as a non-host participant, you only need to:
 2. copy & paste into dreamborn.ink , from where you'll probably export to pixelborn.
 
 The host(s) will need to:
-1. Export the draft list from dreamborn to clipboard,
-2. paste from clipboard into the bottom of a Draftmancer Custom Card List template,
-3. upload to Draftmancer as a Custom Card List, then
-4. host the draft in Draftmancer (see 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
+1. Import the draft list from dreamborn into Draftmancer:
+    1. Export the draft list from dreamborn to clipboard,
+    2. paste from clipboard into the bottom of a Draftmancer Custom Card List template,
+    3. upload to Draftmancer as a Custom Card List, then
+2. host the draft in Draftmancer (see 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
 
 Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
 
