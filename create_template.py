@@ -2,7 +2,7 @@
 This is a python script to create a template to convert a dreamborn.ink plain export into a Draftmancer Custom Card List.
 
 Run the script like so:
-python3 dreamborn_to_draftmancer.py '/path/to/dreamborn_tabletop_sim_export.json'
+python3 create_template.py '/path/to/dreamborn_tabletop_sim_export.json'
 
 TODOs:
 - How to balance packs versus random 12 cards?
