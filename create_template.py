@@ -29,6 +29,7 @@ parser = argparse.ArgumentParser(
                     epilog='Text at the bottom of help')
 
 parser.add_argument('dreamborn_export_for_tabletop_sim')
+parser.add_argument('--card_evaluations_file')
 
 
 def fetch_api_data():
@@ -142,7 +143,7 @@ def generate_custom_card_list(name_to_card, name_to_rating, id_to_vals):
 
 def retrieve_name_id_to_rating():
     name_id_to_rating = {}
-    with open(file="DraftBots\\FrankKarstenDraftBotEvaluations.csv", newline='', encoding='utf8') as csvfile:
+    with open(file=card_evaluations_file, newline='', encoding='utf8') as csvfile:
         dialect = csv.Sniffer().sniff(csvfile.read(1024))
         dialect.quoting = csv.QUOTE_MINIMAL
         csvfile.seek(0)
@@ -173,9 +174,13 @@ def write_out(out, id_to_vals):
             f.write(line + '\n')
 
 
+card_evaluations_file = "DraftBots\\FrankKarstenPoweredCubeEvaluations.csv"
+
 if __name__ == '__main__':
     args = parser.parse_args()
     id_to_vals = read_id_to_vals(args.dreamborn_export_for_tabletop_sim)
+    if args.card_evaluations_file:
+        card_evaluations_file = args.card_evaluations_file
     # print(id_to_vals)
     name_id_to_api_card = read_or_fetch_name_id_to_api_card()
     name_id_to_rating = retrieve_name_id_to_rating()

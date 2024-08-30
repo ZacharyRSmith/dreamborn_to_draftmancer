@@ -16,7 +16,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-201_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Genie - Supportive Friend",
@@ -34,7 +34,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-204_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Chernabogs Followers - Creatures of Evil",
@@ -43,7 +43,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-036_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Steel Chromicon",
@@ -52,7 +52,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-202_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Minnie Mouse - Stylish Surfer",
@@ -70,7 +70,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-116_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mulan - Soldier in Training",
@@ -79,7 +79,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-117_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Pegasus - Gift for Hercules",
@@ -88,7 +88,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-084_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Queen of Hearts - Impulsive Ruler",
@@ -97,7 +97,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-119_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Pegasus - Cloud Racer",
@@ -106,7 +106,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-083_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Lady Tremaine - Imperious Queen",
@@ -124,7 +124,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-023_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Tinker Bell - Generous Fairy",
@@ -133,7 +133,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-022_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Gramma Tala - Keeper of Ancient Stories",
@@ -142,7 +142,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-142_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Rolly - Hungry Pup",
@@ -151,7 +151,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-021_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Flintheart Glomgold - Lone Cheater",
@@ -160,7 +160,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-140_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Tor - Florist",
@@ -169,7 +169,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-091_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Louie - Chill Nephew",
@@ -178,7 +178,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-149_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "The Muses - Proclaimers of Heroes",
@@ -187,7 +187,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-090_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Huey - Savvy Nephew",
@@ -196,7 +196,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-145_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "We Dont Talk About Bruno",
@@ -214,7 +214,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-098_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Felicia - Always Hungry",
@@ -223,7 +223,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-107_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Zeus - Mr. Lightning Bolts",
@@ -232,7 +232,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-092_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Under The Sea",
@@ -241,7 +241,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-095_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Nani - Protective Sister",
@@ -259,7 +259,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-133_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mauis Fish Hook",
@@ -268,7 +268,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-132_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Pongo - Determined Father",
@@ -277,7 +277,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-019_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Mad Hatter - Gracious Host",
@@ -295,7 +295,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-101_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Dewey - Showy Nephew",
@@ -304,7 +304,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-139_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Lady Tremaine - Wicked Stepmother",
@@ -313,7 +313,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-085_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Emerald Chromicon",
@@ -322,7 +322,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-100_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Kuzco - Temperamental Emperor",
@@ -340,7 +340,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-016_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Turbo - Royal Hack",
@@ -349,7 +349,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-106_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Perdita - Devoted Mother",
@@ -367,7 +367,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-136_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Patch - Intimidating Pup",
@@ -376,7 +376,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-014_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Agrabah - Marketplace",
@@ -385,7 +385,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-134_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "John Silver - Alien Pirate",
@@ -403,7 +403,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-081_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Baloo - von Bruinwald XIII",
@@ -412,7 +412,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-001_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Prince Eric - Expert Helmsman",
@@ -439,7 +439,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-098_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Kida - Protector of Atlantis",
@@ -457,7 +457,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-111_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Mother Knows Best",
@@ -466,7 +466,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-095_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Snowanna Rainbeau - Cool Competitor",
@@ -475,7 +475,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-110_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Joshua Sweet - The Doctor",
@@ -484,7 +484,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-005_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Chernabog - Evildoer",
@@ -502,7 +502,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-090_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Strength of a Raging Fire",
@@ -520,7 +520,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-203_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Do It Again!",
@@ -547,7 +547,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-186_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Prince Naveen - Ukulele Player",
@@ -556,7 +556,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-003_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Vanellope Von Schweetz - Random Roster Racer",
@@ -565,7 +565,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-124_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Friends on the Other Side",
@@ -583,7 +583,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-117_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Befuddle",
@@ -601,7 +601,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-121_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Maui - Whale",
@@ -610,7 +610,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-114_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "White Rabbits Pocket Watch",
@@ -619,7 +619,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-068_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Madame Medusa - The Boss",
@@ -637,7 +637,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-119_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Robin Hood - Sharpshooter",
@@ -646,7 +646,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-118_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Zeus - God of Lightning",
@@ -655,7 +655,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-061_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Hans - Thirteenth in Line",
@@ -673,7 +673,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-109_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Fortisphere",
@@ -682,7 +682,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-200_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Hydra - Deadly Serpent",
@@ -700,7 +700,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-197_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Genie - On the Job",
@@ -718,7 +718,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-134_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Della Duck - Unstoppable Mom",
@@ -727,7 +727,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-106_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Flynn Rider - Charming Rogue",
@@ -745,7 +745,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-195_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Captain Hook - Master Swordsman",
@@ -763,7 +763,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-194_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Gazelle - Pop Star",
@@ -772,7 +772,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-011_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ariel - Adventurous Collector",
@@ -781,7 +781,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-103_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Grab Your Sword",
@@ -817,7 +817,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-049_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Maleficent - Biding Her Time",
@@ -826,7 +826,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-048_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ratigan - Criminal Mastermind",
@@ -835,7 +835,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-091_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Wreck-It Ralph - Admiral Underpants",
@@ -853,7 +853,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-020_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Scrooge McDuck - Afficionado of Antiquities",
@@ -880,7 +880,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-164_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Elsa - Spirit of Winter",
@@ -907,7 +907,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-023_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Develop Your Brain",
@@ -916,7 +916,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-161_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Maid Marian - Lady of the Lists",
@@ -934,7 +934,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-168_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Invited to the Ball",
@@ -943,7 +943,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-029_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Jetsam - Ursulas Spy",
@@ -952,7 +952,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-046_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Kuzco - Selfish Emperor",
@@ -970,7 +970,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-045_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Jafar - Keeper of Secrets",
@@ -979,7 +979,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-044_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Healing Touch",
@@ -988,7 +988,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-026_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Tiana - True Princess",
@@ -997,7 +997,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-094_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Goofy - Super Goof",
@@ -1024,7 +1024,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-080_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Hercules - Daring Demigod",
@@ -1033,7 +1033,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-109_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Basil - Practiced Detective",
@@ -1042,7 +1042,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-153_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Hercules - Clumsy Kid",
@@ -1051,7 +1051,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-108_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Flynn Rider - His Own Biggest Fan",
@@ -1060,7 +1060,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-082_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Ludwig Von Drake - Self-Proclaimed Genius",
@@ -1069,7 +1069,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-151_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Mufasa - Ruler of Pride Rock",
@@ -1096,7 +1096,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-157_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Pascal - Rapunzels Companion",
@@ -1105,7 +1105,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-053_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Captain Hook - Forceful Duelist",
@@ -1114,7 +1114,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-174_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Donald Duck - Focused Flatfoot",
@@ -1123,7 +1123,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-155_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Beast - Hardheaded",
@@ -1132,7 +1132,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-172_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Rapunzels Tower - Secluded Prison",
@@ -1141,7 +1141,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-033_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "King Candy - Sweet Abomination",
@@ -1150,7 +1150,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-154_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Archimedes - Exasperated Owl",
@@ -1177,7 +1177,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-177_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Cogsworth - Illuminary Watchman",
@@ -1186,7 +1186,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-037_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mulan - Injured Soldier",
@@ -1195,7 +1195,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-116_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Nessus - River Guardian",
@@ -1204,7 +1204,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-118_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Lucifer - Cunning Cat",
@@ -1222,7 +1222,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-117_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Li Shang - Valorous General",
@@ -1231,7 +1231,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-112_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mulan - Elite Archer",
@@ -1249,7 +1249,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-113_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Vision of the Future",
@@ -1258,7 +1258,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-160_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Jasmine - Queen of Agrabah",
@@ -1303,7 +1303,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-042_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Hide Away",
@@ -1348,7 +1348,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-142_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Archimedes - Electrified Owl",
@@ -1357,7 +1357,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-047_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Simba - Protective Cub",
@@ -1393,7 +1393,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-146_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Stitch - Rock Star",
@@ -1411,7 +1411,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-049_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Elsa - The Fifth Spirit",
@@ -1429,7 +1429,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-120_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Bucky - Squirrel Squeak Tutor",
@@ -1438,7 +1438,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-073_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Tuk Tuk - Lively Partner",
@@ -1447,7 +1447,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-127_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Robin Hood - Capable Fighter",
@@ -1456,7 +1456,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-193_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Cogsworth - Majordomo",
@@ -1465,7 +1465,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-005_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Tiana - Celebrating Princess",
@@ -1474,7 +1474,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-196_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Donald Duck - Musketeer Soldier",
@@ -1483,7 +1483,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-008_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Be King Undisputed",
@@ -1492,7 +1492,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-129_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "The Prince - Never Gives Up",
@@ -1501,7 +1501,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-195_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Daisy Duck - Musketeer Spy",
@@ -1510,7 +1510,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-007_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Donald Duck - Perfect Gentleman",
@@ -1519,7 +1519,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-077_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Sisu - Daring Visitor",
@@ -1528,7 +1528,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-123_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Daisy Duck - Secret Agent",
@@ -1537,7 +1537,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-076_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Let the Storm Rage On",
@@ -1564,7 +1564,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-171_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Dr. Facilier - Charlatan",
@@ -1573,7 +1573,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-038_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Dr. Facilier - Agent Provocateur",
@@ -1618,7 +1618,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-173_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Jafar - Tyrannical Hypnotist",
@@ -1645,7 +1645,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-031_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Kronk - Unlicensed Investigator",
@@ -1654,7 +1654,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-178_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Maleficent - Uninvited",
@@ -1672,7 +1672,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-176_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Robin Hood - Unrivaled Archer",
@@ -1681,7 +1681,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-157_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Philoctetes - Trainer of Heroes",
@@ -1690,7 +1690,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-156_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Mufasa - King of the Pride Lands",
@@ -1708,7 +1708,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-033_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Mickey Mouse - Detective",
@@ -1717,7 +1717,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-154_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Hypnotic Strength",
@@ -1726,7 +1726,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-059_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Brawl",
@@ -1735,7 +1735,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-130_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Medallion Weights",
@@ -1753,7 +1753,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-010_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Jafar - Dreadnought",
@@ -1771,7 +1771,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-017_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Anna - True-Hearted",
@@ -1780,7 +1780,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-138_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Anna - Braving the Storm",
@@ -1789,7 +1789,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-137_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Kronk - Junior Chipmunk",
@@ -1807,7 +1807,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-184_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ariel - Treasure Collector",
@@ -1816,7 +1816,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-139_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Li Shang - Archery Instructor",
@@ -1825,7 +1825,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-187_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Julieta Madrigal - Excellent Cook",
@@ -1843,7 +1843,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-134_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Lawrence - Jealous Manservant",
@@ -1852,7 +1852,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-186_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Namaari - Morning Mist",
@@ -1861,7 +1861,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-189_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mickey Mouse - Leader of the Band",
@@ -1870,7 +1870,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-015_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Be Prepared",
@@ -1906,7 +1906,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-060_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Goofy - Musketeer",
@@ -1915,7 +1915,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-004_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Stitch - Abomination",
@@ -1933,7 +1933,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-009_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Pongo - Ol Rascal",
@@ -1942,7 +1942,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-120_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Robin Hood - Timely Contestant",
@@ -1969,7 +1969,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-066_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Ariel - Spectacular Singer",
@@ -1978,7 +1978,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-002_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Winnie the Pooh - Hunny Wizard",
@@ -1987,7 +1987,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-059_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Pluto - Rescue Dog",
@@ -2005,7 +2005,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-058_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Merlin - Goat",
@@ -2014,7 +2014,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-051_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Wildcat - Mechanic",
@@ -2023,7 +2023,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-092_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Beast - Selfless Protector",
@@ -2041,7 +2041,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-149_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Look At This Family",
@@ -2050,7 +2050,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-028_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Merlin - Crab",
@@ -2068,7 +2068,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-091_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Beast - Forbidding Recluse",
@@ -2077,7 +2077,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-171_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Benja - Guardian of the Dragon Gem",
@@ -2086,7 +2086,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-174_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ursula - Deceiver",
@@ -2095,7 +2095,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-090_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Merlin - Rabbit",
@@ -2122,7 +2122,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-029_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Peter Pans Shadow - Not Sewn On",
@@ -2140,7 +2140,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-024_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Iduna - Caring Mother",
@@ -2149,7 +2149,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-147_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Brunos Return",
@@ -2158,7 +2158,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-026_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Cinderella - Stouthearted",
@@ -2176,7 +2176,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-025_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Rapunzel - Gifted with Healing",
@@ -2194,7 +2194,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-139_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Zazu - Advisor to Mufasa",
@@ -2212,7 +2212,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-193_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Simba - Son of Mufasa",
@@ -2221,7 +2221,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-192_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Happy - Lively Knight",
@@ -2230,7 +2230,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-191_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Merryweather - Good Fairy",
@@ -2239,7 +2239,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-076_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Robin Hood - Daydreamer",
@@ -2257,7 +2257,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-196_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ed - Laughing Hyena",
@@ -2266,7 +2266,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-074_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Pete - Games Referee",
@@ -2275,7 +2275,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-195_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Maximus - Palace Horse",
@@ -2302,7 +2302,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-079_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Moana - Of Motunui",
@@ -2311,7 +2311,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-014_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Shield of Virtue",
@@ -2320,7 +2320,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-135_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Maximus - Relentless Pursuer",
@@ -2338,7 +2338,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-169_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Prince Phillip - Gallant Defender",
@@ -2347,7 +2347,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-152_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Madam Mim - Snake",
@@ -2356,7 +2356,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-049_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Fairy Godmother - Here to Help",
@@ -2365,7 +2365,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-040_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Morph - Space Goo",
@@ -2374,7 +2374,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-081_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Bruno Madrigal - Undetected Uncle",
@@ -2383,7 +2383,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-039_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Fairy Godmother - Pure Heart",
@@ -2392,7 +2392,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-042_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Fairy Godmother - Mystic Armorer",
@@ -2410,7 +2410,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-165_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "HeiHei - Persistent Presence",
@@ -2437,7 +2437,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-037_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Kuzco - Wanted Llama",
@@ -2446,7 +2446,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-045_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Belle - Accomplished Mystic",
@@ -2464,7 +2464,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-157_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Lyle Tiberius Rourke - Cunning Mercenary",
@@ -2482,7 +2482,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-199_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Kit Cloudkicker - Tough Guy",
@@ -2491,7 +2491,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-077_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Rise of the Titans",
@@ -2500,7 +2500,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-198_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Scroop - Odious Mutineer",
@@ -2527,7 +2527,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-075_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ba-boom!",
@@ -2536,7 +2536,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-196_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Banzai - Gluttonous Predator",
@@ -2545,7 +2545,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-080_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Helga Sinclair - Femme Fatale",
@@ -2572,7 +2572,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-073_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Clarabelle - Clumsy Guest",
@@ -2581,7 +2581,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-086_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Flotsam - Riffraff",
@@ -2590,7 +2590,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-072_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Simba - Rightful King",
@@ -2644,7 +2644,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-089_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Rabbit - Reluctant Host",
@@ -2653,7 +2653,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-158_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Elsa - Storm Chaser",
@@ -2662,7 +2662,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-042_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Blue Fairy - Rewarding Good Deeds",
@@ -2671,7 +2671,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-036_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Prince Charming - Heir to the Throne",
@@ -2680,7 +2680,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-157_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Dolores Madrigal - Easy Listener",
@@ -2689,7 +2689,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-041_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Dig A Little Deeper",
@@ -2698,7 +2698,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-162_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Elsa - Gloves Off",
@@ -2707,7 +2707,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-039_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Flotsam & Jetsam - Entangling Eels",
@@ -2716,7 +2716,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-044_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Sisu - Divine Water Dragon",
@@ -2743,7 +2743,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-070_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Robin Hood - Champion of Sherwood",
@@ -2761,7 +2761,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-152_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Jetsam - Ursulas \"Baby\"",
@@ -2770,7 +2770,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-046_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Great Stone Dragon",
@@ -2779,7 +2779,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-167_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Isabela Madrigal - Golden Child",
@@ -2797,7 +2797,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-035_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Magic Broom - Illuminary Keeper",
@@ -2806,7 +2806,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-048_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ice Block",
@@ -2815,7 +2815,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-168_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "The Queens Castle - Mirror Chamber",
@@ -2824,7 +2824,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-067_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Razoul - Palace Guard",
@@ -2833,7 +2833,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-188_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Pyros - Lava Titan",
@@ -2878,7 +2878,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-185_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Mr. Smee - Bumbling Mate",
@@ -2887,7 +2887,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-184_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Youre Welcome",
@@ -2896,7 +2896,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-096_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "LeFou - Instigator",
@@ -2905,7 +2905,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-112_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Goofy - Daredevil",
@@ -2923,7 +2923,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-110_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "The Queen - Commanding Presence",
@@ -2959,7 +2959,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-173_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Hiram Flaversham - Toymaker",
@@ -2968,7 +2968,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-149_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Peter Pan - Shadow Finder",
@@ -2977,7 +2977,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-054_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ariel - Sonic Warrior",
@@ -2995,7 +2995,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-171_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Lythos - Rock Titan",
@@ -3004,7 +3004,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-180_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Caterpillar - Calm and Collected",
@@ -3013,7 +3013,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-141_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ursula - Mad Sea Witch",
@@ -3022,7 +3022,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-057_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Chien-Po - Imperial Soldier",
@@ -3040,7 +3040,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/005-090_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Sleepy - Nodding Off",
@@ -3049,7 +3049,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-021_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Cogsworth - Grandfather Clock",
@@ -3076,7 +3076,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-144_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Ursula - Sea Witch Queen",
@@ -3094,7 +3094,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-179_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Kida - Royal Warrior",
@@ -3103,7 +3103,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-177_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Rafiki - Mystical Fighter",
@@ -3112,7 +3112,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-054_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Helga Sinclair - Right-Hand Woman",
@@ -3121,7 +3121,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-175_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Mama Odie - Voice of Wisdom",
@@ -3139,7 +3139,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-173_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Maleficent - Mistress of All Evil",
@@ -3157,7 +3157,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-172_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Motunui - Island Paradise",
@@ -3166,7 +3166,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-170_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Beasts Mirror",
@@ -3175,7 +3175,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-201_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Ursula - Sea Witch",
@@ -3184,7 +3184,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-059_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Smash",
@@ -3193,7 +3193,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/001-200_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Little John - Robins Pal",
@@ -3202,7 +3202,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-179_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Mufasa - Betrayed Leader",
@@ -3220,7 +3220,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-184_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Alice - Growing Girl",
@@ -3238,7 +3238,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-065_716x1000.jpeg"
         },
-        "rating": 2
+        "rating": 1
     },
     {
         "name": "Hercules - Beloved Hero",
@@ -3256,7 +3256,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-061_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Teeth and Ambitions",
@@ -3265,7 +3265,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-130_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Mickey Mouse - Standard Bearer",
@@ -3274,7 +3274,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-188_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Cri-Kee - Lucky Cricket",
@@ -3292,7 +3292,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-045_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "How Far Ill Go",
@@ -3301,7 +3301,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-161_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Philoctetes - No-Nonsense Instructor",
@@ -3310,7 +3310,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-190_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "McDuck Manor - Scrooges Mansion",
@@ -3319,7 +3319,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-169_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Magic Carpet - Flying Rug",
@@ -3328,7 +3328,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/003-047_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Scar - Vicious Cheater",
@@ -3337,7 +3337,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-125_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "HeiHei - Bumbling Rooster",
@@ -3346,7 +3346,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-075_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 3
     },
     {
         "name": "Cinderella - Ballroom Sensation",
@@ -3355,7 +3355,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-003_716x1000.jpeg"
         },
-        "rating": 1
+        "rating": 0
     },
     {
         "name": "Jaq - Connoisseur of Climbing",
@@ -3364,7 +3364,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-077_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "The Mob Song",
@@ -3373,7 +3373,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-198_716x1000.jpeg"
         },
-        "rating": 4
+        "rating": 2
     },
     {
         "name": "Doc - Leader of the Seven Dwarfs",
@@ -3382,7 +3382,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-005_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Shere Khan - Menacing Predator",
@@ -3400,7 +3400,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/004-192_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Eudora - Accomplished Seamstress",
@@ -3409,7 +3409,7 @@
         "image_uris": {
             "en": "https://images.dreamborn.ink/cards/en/tts/002-007_716x1000.jpeg"
         },
-        "rating": 3
+        "rating": 1
     },
     {
         "name": "Diablo - Devoted Herald",
