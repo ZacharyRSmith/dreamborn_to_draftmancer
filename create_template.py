@@ -30,7 +30,8 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('dreamborn_export_for_tabletop_sim')
 parser.add_argument('--card_evaluations_file')
-
+parser.add_argument('--boosters_per_player')
+parser.add_argument('--cards_per_booster')
 
 def fetch_api_data():
     name_to_card = {}
@@ -136,15 +137,14 @@ def generate_custom_card_list(id_to_card, name_to_rating, id_to_vals):
     for id in id_to_vals:
         card = id_to_card[id];
         ink_cost = card['Cost']
-        set_num = card['Set_Num']
-        card_num = card['Card_Num']
+        # set_num = card['Set_Num']
+        # card_num = card['Card_Num']
         custom_card = {
             'name': id_to_vals[id]['name'],
             'mana_cost': f'{{{ink_cost}}}',
             'type': 'Instant',
             'image_uris': {
-                # below doesn't account for dalmation puppy - Tail Wagger a-e b/c of the letters afterwards
-                'en': f"https://images.dreamborn.ink/cards/en/tts/00{set_num}-{'{:03}'.format(card_num)}_716x1000.jpeg",
+                'en': id_to_vals[id]['image_uri']
             },
         }
         custom_card['rarity'] = to_magic_rarity(card['Rarity'])
@@ -171,11 +171,11 @@ def write_out(out, id_to_vals):
             '[Settings]',
             json.dumps(
                 {
-                    'boostersPerPlayer': 4,
+                    'boostersPerPlayer': boosters_per_player,
                 },
                 indent=4
             ),
-            f'[MainSlot(12)]',
+            f'[MainSlot({cards_per_booster})]',
         ]
         for id in id_to_vals:
             line_str = f"{id_to_vals[id]['count']} {id_to_vals[id]['name']}"
@@ -186,12 +186,18 @@ def write_out(out, id_to_vals):
 
 
 card_evaluations_file = "DraftBots\\FrankKarstenPoweredCubeEvaluations.csv"
+boosters_per_player = 4
+cards_per_booster = 12
 
 if __name__ == '__main__':
     args = parser.parse_args()
     id_to_vals = read_id_to_vals(args.dreamborn_export_for_tabletop_sim)
     if args.card_evaluations_file:
         card_evaluations_file = args.card_evaluations_file
+    if args.boosters_per_player:
+        boosters_per_player = int(args.boosters_per_player)
+    if args.cards_per_booster:
+        cards_per_booster = int(args.cards_per_booster)
     name_id_to_api_card = read_or_fetch_name_id_to_api_card()
     name_id_to_rating = retrieve_name_id_to_rating()
     custom_card_list = generate_custom_card_list(name_id_to_api_card, name_id_to_rating, id_to_vals)

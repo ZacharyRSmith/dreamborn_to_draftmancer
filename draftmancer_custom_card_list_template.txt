@@ -1395,7 +1395,7 @@
         "mana_cost": "{2}",
         "type": "Instant",
         "image_uris": {
-            "en": "https://images.dreamborn.ink/cards/en/tts/003-004_716x1000.jpeg"
+            "en": "https://images.dreamborn.ink/cards/en/tts/003-004a_716x1000.jpeg"
         },
         "rarity": "common",
         "rating": 3
@@ -1495,7 +1495,7 @@
 {
     "boostersPerPlayer": 4
 }
-[MainSlot(12)]
+[MainSlot(16)]
 2 Hakuna Matata
 2 Never Land - Mermaid Lagoon
 2 Megara - Liberated One
