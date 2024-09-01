@@ -120,25 +120,36 @@ def read_all_card_names_from_dreamborn_plain_export():
         id_to_name[to_id(name)] = name
     return id_to_name
 
+lorcana_rarity_to_draftmancer_rarity =  {
+    "Common": "common",
+    "Uncommon": "uncommon",
+    "Rare": "rare",
+    "Super Rare": "mythic",
+    "Legendary": "mythic"
+}
+def to_magic_rarity(lorcana_rarity):
+    return lorcana_rarity_to_draftmancer_rarity[lorcana_rarity]
 
-def generate_custom_card_list(name_to_card, name_to_rating, id_to_vals):
+def generate_custom_card_list(id_to_card, name_to_rating, id_to_vals):
     custom_card_list = []
     # id_to_name_from_plain_export = read_all_ca_names_from_dreamborn_plain_export()
-    for name_id in id_to_vals:
-        ink_cost = name_to_card[name_id]['Cost']
-        set_num = name_to_card[name_id]['Set_Num']
-        card_num = name_to_card[name_id]['Card_Num']
-        foo = {
-            'name': id_to_vals[name_id]['name'],
+    for id in id_to_vals:
+        card = id_to_card[id];
+        ink_cost = card['Cost']
+        set_num = card['Set_Num']
+        card_num = card['Card_Num']
+        custom_card = {
+            'name': id_to_vals[id]['name'],
             'mana_cost': f'{{{ink_cost}}}',
             'type': 'Instant',
             'image_uris': {
+                # below doesn't account for dalmation puppy - Tail Wagger a-e b/c of the letters afterwards
                 'en': f"https://images.dreamborn.ink/cards/en/tts/00{set_num}-{'{:03}'.format(card_num)}_716x1000.jpeg",
             },
         }
-        # foo['rarity'] = lorcana_rarity_to_magic_rarity(name_to_card['Rarity'])
-        foo['rating'] = name_to_rating[name_id]
-        custom_card_list.append(foo)
+        custom_card['rarity'] = to_magic_rarity(card['Rarity'])
+        custom_card['rating'] = name_to_rating[id]
+        custom_card_list.append(custom_card)
     return custom_card_list
 
 def retrieve_name_id_to_rating():
@@ -181,9 +192,7 @@ if __name__ == '__main__':
     id_to_vals = read_id_to_vals(args.dreamborn_export_for_tabletop_sim)
     if args.card_evaluations_file:
         card_evaluations_file = args.card_evaluations_file
-    # print(id_to_vals)
     name_id_to_api_card = read_or_fetch_name_id_to_api_card()
     name_id_to_rating = retrieve_name_id_to_rating()
     custom_card_list = generate_custom_card_list(name_id_to_api_card, name_id_to_rating, id_to_vals)
     write_out(custom_card_list, id_to_vals)
-    # print()
