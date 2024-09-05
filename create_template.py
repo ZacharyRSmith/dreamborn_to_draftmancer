@@ -21,17 +21,17 @@ import re
 import csv
 
 API_DATA_FILEPATH = 'api_data.json'
-OUT_FILEPATH = 'draftmancer_custom_card_list_template.txt'
 
 parser = argparse.ArgumentParser(
                     prog='ProgramName',
-                    description='What the program does',
+                    description='given a dreamborn deck of the set, exported in Tabletop Simulator format, create a custom card list that can be uploaded and drafted on draftmancer.com',
                     epilog='Text at the bottom of help')
 
-parser.add_argument('dreamborn_export_for_tabletop_sim')
-parser.add_argument('--card_evaluations_file')
-parser.add_argument('--boosters_per_player')
-parser.add_argument('--cards_per_booster')
+parser.add_argument('dreamborn_export_for_tabletop_sim', help="Fully qualified path to a .deck export in Tabletop Sim format from dreamborn.ink deck of the cube")
+parser.add_argument('--card_evaluations_file', default="DraftBots\\FrankKarstenEvaluations-HighPower.csv", help="relative path to a .csv file containing card name -> 0-5 card rating (power in a vacuum). default: \"DraftBots\\\\FrankKarstenEvaluations-HighPower.csv\"")
+parser.add_argument('--boosters_per_player', default=4)
+parser.add_argument('--cards_per_booster', default=12)
+parser.add_argument('--name', default="custom_card_list.draftmancer.txt", help="Sets name of both the output file and the set/cube list as it appears in draftmancer")
 
 def fetch_api_data():
     name_to_card = {}
@@ -93,6 +93,7 @@ def read_id_to_vals(dreamborn_export_for_tabletop_sim__filepath):
 pattern = re.compile(r"[\W_]+", re.ASCII)
 def to_id(string):
     string = string.replace('ā', 'a')
+    string = string.replace('é','e')
     return re.sub(pattern, '', string).lower()
 
 
@@ -128,7 +129,7 @@ lorcana_rarity_to_draftmancer_rarity =  {
     "Super Rare": "mythic",
     "Legendary": "mythic"
 }
-def to_magic_rarity(lorcana_rarity):
+def to_draftmancer_rarity(lorcana_rarity):
     return lorcana_rarity_to_draftmancer_rarity[lorcana_rarity]
 
 def generate_custom_card_list(id_to_card, name_to_rating, id_to_vals):
@@ -146,9 +147,10 @@ def generate_custom_card_list(id_to_card, name_to_rating, id_to_vals):
             'image_uris': {
                 'en': id_to_vals[id]['image_uri']
             },
+            'rating': name_to_rating[id],
+            'rarity': to_draftmancer_rarity(card['Rarity']),
         }
-        custom_card['rarity'] = to_magic_rarity(card['Rarity'])
-        custom_card['rating'] = name_to_rating[id]
+        
         custom_card_list.append(custom_card)
     return custom_card_list
 
@@ -164,7 +166,8 @@ def retrieve_name_id_to_rating():
     return name_id_to_rating
 
 def write_out(out, id_to_vals):
-    with open(OUT_FILEPATH, 'w', encoding="utf-8") as f:
+    file_name = f'{card_list_name}.draftmancer.txt'
+    with open(file_name, 'w', encoding="utf-8") as f:
         lines = [
             '[CustomCards]',
             json.dumps(out, indent=4),
@@ -172,6 +175,7 @@ def write_out(out, id_to_vals):
             json.dumps(
                 {
                     'boostersPerPlayer': boosters_per_player,
+                    'name': card_list_name
                 },
                 indent=4
             ),
@@ -185,19 +189,18 @@ def write_out(out, id_to_vals):
             f.write(line + '\n')
 
 
-card_evaluations_file = "DraftBots\\FrankKarstenPoweredCubeEvaluations.csv"
-boosters_per_player = 4
-cards_per_booster = 12
+card_evaluations_file = None
+boosters_per_player = None
+cards_per_booster = None
+card_list_name = None
 
 if __name__ == '__main__':
     args = parser.parse_args()
     id_to_vals = read_id_to_vals(args.dreamborn_export_for_tabletop_sim)
-    if args.card_evaluations_file:
-        card_evaluations_file = args.card_evaluations_file
-    if args.boosters_per_player:
-        boosters_per_player = int(args.boosters_per_player)
-    if args.cards_per_booster:
-        cards_per_booster = int(args.cards_per_booster)
+    card_evaluations_file = args.card_evaluations_file
+    boosters_per_player = int(args.boosters_per_player)
+    card_list_name = args.name
+    cards_per_booster = int(args.cards_per_booster)
     name_id_to_api_card = read_or_fetch_name_id_to_api_card()
     name_id_to_rating = retrieve_name_id_to_rating()
     custom_card_list = generate_custom_card_list(name_id_to_api_card, name_id_to_rating, id_to_vals)
