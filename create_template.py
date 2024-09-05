@@ -31,7 +31,7 @@ parser.add_argument('dreamborn_export_for_tabletop_sim', help="Fully qualified p
 parser.add_argument('--card_evaluations_file', default="DraftBots\\FrankKarstenEvaluations-HighPower.csv", help="relative path to a .csv file containing card name -> 0-5 card rating (power in a vacuum). default: \"DraftBots\\\\FrankKarstenEvaluations-HighPower.csv\"")
 parser.add_argument('--boosters_per_player', default=4)
 parser.add_argument('--cards_per_booster', default=12)
-parser.add_argument('--name', default="custom_card_list.draftmancer.txt", help="Sets name of both the output file and the set/cube list as it appears in draftmancer")
+parser.add_argument('--name', default="custom_card_list", help="Sets name of both the output file and the set/cube list as it appears in draftmancer")
 
 def fetch_api_data():
     name_to_card = {}
