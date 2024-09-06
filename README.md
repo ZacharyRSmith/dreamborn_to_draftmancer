@@ -1,5 +1,3 @@
-# UPDATE: This README is out-of-date due to these changes: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/pull/1
-
 I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft, please let me know at zacharysmith4989@gmail.com !
 
 A video tutorial on how to draft as either a non-host participant or a host: https://www.youtube.com/watch?v=lm1xPenIKQg
@@ -30,12 +28,11 @@ To import a drafted deck into dreamborn.ink:
 
 # Details
 
-Using lorcana-api.com data, each card is assigned an ink cost.
+Using lorcana-api.com data, each card is assigned an ink cost, a rarity
 
 
 # Potential Enhancements
-
-Rarity and other data might be assignable with a one-line change to the python script that creates the template? If someone knows how Draftmancer expects rarity data, I or someone else can make that change then run the script to enhance the template.
+Adding colors. This will probably be added soon.
 
 ## How to support sealed?
 

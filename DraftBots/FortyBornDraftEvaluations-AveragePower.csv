@@ -10,15 +10,16 @@ Fire the Cannons!,4,B,1
 He's Got a Sword!,1,D-,1
 Healing Glow,1,D-,1
 HeiHei - Boat Snack,1,D+,1
-Lilo - Galactic Hero,3,C+,1
+Lilo - Making a Wish,3,C+,1
 Magic Golden Flower,1,D-,1
 Olaf - Friendly Snowman,1,D+,1
-Minnie Mouse - Beloved Princess,1,D+,1
+Elsa - Snow Queen,4,B-,1
+Minnie Mouse - Always Classy,1,D+,1
+Minnie Mouse - Beloved Princess,1,C,1
 Pascal - Rapunzel's Companion,3,C,1
 Reflection,0,F,1
 Scepter Of Arendelle,2,C-,1
 Shield of Virtue,1,D,1
-Simba - Rightful Heir,2,C-,1
 Stampede,1,D-,1
 Timon - Grub Rustler,1,D-,1
 Vicious Betrayal,1,D-,1
@@ -53,7 +54,6 @@ Philoctetes - Trainer of Heroes,4,B-,1
 Prince Eric - Dashing and Brave,3,C+,1
 Ransack,1,D-,1
 Sebastian - Court Composer,1,D,1
-Simba - Rightful Heir,4,B,1
 Stolen Scimitar,1,D-,1
 Sudden Chill,0,F,1
 Tamatoa - Drab Little Crab,2,C-,1
@@ -107,13 +107,15 @@ Scar - Fiery Usurper,2,C-,1
 Captain - Colonel's Lieutenant,3,C+,1
 Anna - Heir to Arendelle,1,D+,1
 Ariel - On Human Legs,3,C,1
-Simba - Future King,3,C+,1
 Captain Hook - Forceful Duelist,3,C+,1
 Ariel - Whoseit Collector,1,D-,1
 Aurora - Regal Princess,4,B-,1
 Belle - Strange but Special,1,D+,1
 Captain Hook - Thinking a Happy Thought,2,C-/D+,1
 Cinderella - Gentle and Kind,3,C+,1
+Simba - Rightful Heir,2,C-,1
+Simba - Protective Cub,4,B,1
+Simba - Future King,3,C+,1
 Simba - Returned King,4,B-,1
 Donald Duck - Musketeer,4,B-,1
 Elsa - Ice Surfer,1,D+,1
@@ -140,7 +142,7 @@ Cerberus - Three-Headed Dog,3,C+/B-,1
 Jumba Jookiba - Renegade Scientist,3,C+,1
 Maleficent - Sorceress,4,B-,1
 A Whole New World,1,D+,1
-Aurora - Regal Princess,4,B-,1
+Aurora - Briar Rose,4,B-,1
 Beast - Hardheaded,3,C+,1
 Beast - Wolfsbane,4,B-,1
 Captain Hook - Thinking a Happy Thought,3,C+,1
@@ -159,7 +161,6 @@ Maximus - Relentless Pursuer,4,B+,1
 Moana - Chosen by the Ocean,2,C-,1
 Moana - Of Motunui,3,C,1
 Mulan - Imperial Soldier,4,B,1
-Simba - Rightful Heir,3,C,1
 Starkey - Hook's Henchman,1,D+,1
 Steal from the Rich,0,F,1
 The Queen - Wicked and Vain,4,A-/B+,1
@@ -201,7 +202,6 @@ Maleficent - Sorceress,5,A,1
 Mickey Mouse - Brave Little Tailor,4,B-,1
 Mickey Mouse - Artful Rogue,1,D+,1
 Scar - Mastermind,1,D+,1
-Simba - Rightful Heir,4,B-,1
 Stitch - Abomination,4,B-,1
 Stitch - Carefree Surfer,5,A-,1
 Flounder - Voice of Reason,3,C,1
@@ -467,7 +467,7 @@ Sir Hiss - Aggravating Asp,4,B-,3
 Skippy - Energetic Rabbit,1,D,3
 Starkey - Devious Pirate,3,C,3
 Ursula - Deceiver of All,1,D+,3
-Wildcat's Wrench,4,B-,3
+Wildcat - Mechanic,4,B-,3
 Zazu - Steward of the Pride Lands,2,C-,3
 Forbidden Mountain - Maleficent's Castle,3,C,3
 Has Set My Heaaaaaaart . . .,1,D-,3
