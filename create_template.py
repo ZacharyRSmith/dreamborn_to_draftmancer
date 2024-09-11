@@ -64,12 +64,12 @@ def read_or_fetch_id_to_api_card():
             json.dump(id_to_card, f)
     return id_to_card
 
-def generate_id_to_tts_card(dreamborn_export_for_tabletop_sim__filepath):
-    dreamborn_export_for_tabletop_sim__file = Path(dreamborn_export_for_tabletop_sim__filepath)
-    with dreamborn_export_for_tabletop_sim__file.open(encoding='utf8') as f:
-        data = json.load(f)
+def generate_id_to_tts_card_file(file, id_to_tts_card=None):
+    with file.open(encoding='utf8') as file:
+        data = json.load(file)
     data = data['ObjectStates'][0]
-    id_to_tts_card = defaultdict(lambda: {'count': 0})
+    if id_to_tts_card == None:
+        id_to_tts_card = defaultdict(lambda: {'count': 0})
     i = 1
     while True:
         try:
@@ -80,6 +80,19 @@ def generate_id_to_tts_card(dreamborn_export_for_tabletop_sim__filepath):
         id_to_tts_card[id]['name'] = data['ContainedObjects'][i - 1]['Nickname']
         id_to_tts_card[id]['image_uri'] = data['CustomDeck'][str(i)]['FaceURL']
         i += 1
+    return id_to_tts_card
+
+def generate_id_to_tts_card(dreamborn_tts_export_filepath):
+    dreamborn_tts_export_path = Path(dreamborn_tts_export_filepath)
+    id_to_tts_card = None
+    if dreamborn_tts_export_path.is_dir():
+        files = dreamborn_tts_export_path.glob('*')
+        for file in files:
+            if file.is_file():
+                print(file)
+                id_to_tts_card = generate_id_to_tts_card_file(file, id_to_tts_card)
+    else:
+        id_to_tts_card = generate_id_to_tts_card_file(dreamborn_tts_export_path, id_to_tts_card)
     return id_to_tts_card
 
 pattern = re.compile(r"[\W_]+", re.ASCII)
