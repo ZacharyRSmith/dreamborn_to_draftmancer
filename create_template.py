@@ -82,7 +82,7 @@ def generate_id_to_tts_card_file(file, id_to_tts_card=None):
         i += 1
     return id_to_tts_card
 
-def generate_id_to_tts_card(dreamborn_tts_export_filepath):
+def read_id_to_tts_card(dreamborn_tts_export_filepath):
     dreamborn_tts_export_path = Path(dreamborn_tts_export_filepath)
     id_to_tts_card = None
     if dreamborn_tts_export_path.is_dir():
@@ -107,7 +107,7 @@ def fix_card_name(name_to_card, old_name, new_name):
     del name_to_card[old_name]    
 
 def fix_card_names(name_to_card):
-    # set correct keys using API's typos
+    # there are typos in the https://api.lorcana-api.com card names.  We have to fix those or we cannot translate between data sources
     fix_card_name(name_to_card, 'Benja - Bold United', 'Benja - Bold Uniter')
     fix_card_name(name_to_card, 'Kristoff - Offical Ice Master', 'Kristoff - Official Ice Master')
     fix_card_name(name_to_card, 'Snowanna Rainbeau', 'Snowanna Rainbeau - Cool Competitor')
@@ -117,14 +117,28 @@ def fix_card_names(name_to_card):
     fix_card_name(name_to_card, 'Arthur - King Victorius', 'Arthur - King Victorious')
     fix_card_name(name_to_card, 'Seven Dwarfs\' Mine', 'Seven Dwarfs\' Mine - Secure Fortress')
 
-def read_all_card_names_from_dreamborn_plain_export():
-    with open('all_cards.txt', encoding='utf8') as f:
+def canonical_name_from_id(id, id_to_dreamborn_name, id_to_tts_card):
+    # IMPORTANT dreamborn names are canonical to enable import / export to / from dreamborn.ink (which subsequently enables deck export to inktable.net + Tabletop Simulator)
+    # dreamborn plain export is the best name for our custom card list, enabling all import / export and hand-editing of the card list (e.g. simple_template.draftmancer.txt)
+    # UPDATE INSTRUCTIONS: dreamborn.ink > Collection > export > copy-paste the "Name" column w/o the header row
+    cannonical_name = id_to_dreamborn_name.get(id, None) 
+    
+    # dreamborn TTS export is the second best name
+    # this enables us to generate cubes with cards we haven't exported yet in all_dreamborn_names.txt, and import / export from dreamborn
+    # HOWEVER, hand-editing the booster slot(s) after generation has edge cases, e.g. card names are missing apostrophes (') in custom card list, so they won't match
+    # therefore this method is not suitable to generate simple_template.draftmancer.txt which is meant to have the booster slot(s) "hand-edited"
+    if cannonical_name is None: 
+        cannonical_name = id_to_tts_card[id]['name']
+    return cannonical_name
+
+def read_id_to_dreamborn_name():
+    with open('all_dreamborn_names.txt', encoding='utf8') as f:
         lines = f.readlines()
-    id_to_name = {}
+    id_to_dreamborn_name = {}
     for l in lines:
-        name = l.split('1 ')[1].strip()
-        id_to_name[to_id(name)] = name
-    return id_to_name
+        name = l.strip()
+        id_to_dreamborn_name[to_id(name)] = name
+    return id_to_dreamborn_name
 
 lorcana_color_to_draftmancer_color =  {
     "Amber": "W",
@@ -150,13 +164,14 @@ lorcana_rarity_to_draftmancer_rarity =  {
 def to_draftmancer_rarity(lorcana_rarity):
     return lorcana_rarity_to_draftmancer_rarity[lorcana_rarity]
 
-def generate_custom_card_list(id_to_card, name_to_rating, id_to_tts_card):
+def generate_custom_card_list(id_to_card, name_to_rating, id_to_tts_card, id_to_dreamborn_name):
     custom_card_list = []
     for id in id_to_tts_card:
         card = id_to_card[id]
         ink_cost = card['Cost']
+        cannonical_name = canonical_name_from_id(id, id_to_dreamborn_name, id_to_tts_card)
         custom_card = {
-            'name': id_to_tts_card[id]['name'], # IMPORTANT dreamborn names stored in TTS cards are canonical so you can import / export to / from dreamborn
+            'name': cannonical_name, 
             'mana_cost': f'{{{ink_cost}}}',
             'type': 'Instant',
             'image_uris': {
@@ -170,7 +185,7 @@ def generate_custom_card_list(id_to_card, name_to_rating, id_to_tts_card):
         custom_card_list.append(custom_card)
     return custom_card_list
 
-def retrieve_id_to_rating():
+def read_id_to_rating():
     id_to_rating = {}
     with open(file=card_evaluations_file, newline='', encoding='utf8') as csvfile:
         dialect = csv.Sniffer().sniff(csvfile.read(1024))
@@ -181,7 +196,7 @@ def retrieve_id_to_rating():
             id_to_rating[to_id(row['Card Name'])] = int(row['Rating - Draftmancer'])
     return id_to_rating
 
-def write_out(out, id_to_tts_card):
+def write_draftmancer_file(custom_card_list, id_to_tts_card, id_to_dreamborn_name):
     file_name = f'{card_list_name}.draftmancer.txt'
     with open(file_name, 'w', encoding="utf-8") as f:
         settings = {
@@ -192,7 +207,7 @@ def write_out(out, id_to_tts_card):
             settings['colorBalance'] = True
         lines = [
             '[CustomCards]',
-            json.dumps(out, indent=4),
+            json.dumps(custom_card_list, indent=4),
             '[Settings]',
             json.dumps(
                 settings,
@@ -201,7 +216,8 @@ def write_out(out, id_to_tts_card):
             f'[MainSlot({cards_per_booster})]',
         ]
         for id in id_to_tts_card:
-            line_str = f"{id_to_tts_card[id]['count']} {id_to_tts_card[id]['name']}"
+            cannonical_name = canonical_name_from_id(id, id_to_dreamborn_name, id_to_tts_card)
+            line_str = f"{id_to_tts_card[id]['count']} {cannonical_name}"
             lines.append(line_str)
         for line in lines:
             f.write(line + '\n')
@@ -216,7 +232,6 @@ color_balance_packs = False
 if __name__ == '__main__':
     # parse CLI arguments
     args = parser.parse_args()
-    id_to_tts_card = generate_id_to_tts_card(args.dreamborn_export_for_tabletop_sim)
     card_evaluations_file = args.card_evaluations_file
     boosters_per_player = int(args.boosters_per_player)
     card_list_name = args.name
@@ -224,7 +239,9 @@ if __name__ == '__main__':
     set_card_colors = bool(args.set_card_colors)
     color_balance_packs = bool(args.color_balance_packs)
     # process
+    id_to_dreamborn_name = read_id_to_dreamborn_name()
+    id_to_tts_card = read_id_to_tts_card(args.dreamborn_export_for_tabletop_sim)
     id_to_api_card = read_or_fetch_id_to_api_card()
-    id_to_rating = retrieve_id_to_rating()
-    custom_card_list = generate_custom_card_list(id_to_api_card, id_to_rating, id_to_tts_card)
-    write_out(custom_card_list, id_to_tts_card)
+    id_to_rating = read_id_to_rating()
+    custom_card_list = generate_custom_card_list(id_to_api_card, id_to_rating, id_to_tts_card, id_to_dreamborn_name)
+    write_draftmancer_file(custom_card_list, id_to_tts_card, id_to_dreamborn_name)
