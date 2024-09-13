@@ -1,5 +1,3 @@
-# UPDATE: This README is out-of-date due to these changes: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/pull/1
-
 I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft, please let me know at zacharysmith4989@gmail.com !
 
 A video tutorial on how to draft as either a non-host participant or a host: https://www.youtube.com/watch?v=lm1xPenIKQg
@@ -17,7 +15,7 @@ The host(s) will need to:
     3. upload to Draftmancer as a Custom Card List, then
 2. host the draft in Draftmancer (see either the video tutorial above or 5:00-9:24 here: https://www.youtube.com/watch?v=dbYUgwbHwxU&t=745s&ab_channel=JankDiverGaming ).
 
-Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/draftmancer_custom_card_list_template.txt
+Here is the template: https://github.com/ZacharyRSmith/dreamborn_to_draftmancer/blob/main/simple_template.draftmancer.txt
 
 To import a drafted deck into dreamborn.ink:
 1. In Draftmancer, copy drafted deck to clipboard using 'Export > CARD NAMES'.
@@ -30,12 +28,13 @@ To import a drafted deck into dreamborn.ink:
 
 # Details
 
-Using lorcana-api.com data, each card is assigned an ink cost.
+Using lorcana-api.com data, each card is assigned an ink cost, a rarity
 
 
 # Potential Enhancements
-
-Rarity and other data might be assignable with a one-line change to the python script that creates the template? If someone knows how Draftmancer expects rarity data, I or someone else can make that change then run the script to enhance the template.
+- Add a way for people to set packs by rarity automatically?
+- Add default lists for retail sets 1-5
+- host this somewhere so people can use it on a website!?
 
 ## How to support sealed?
 
@@ -56,6 +55,6 @@ Specific sets can be selected by changing the script to filter cards by set usin
 
 # Testing
 
-I tested this on all 612 cards using: https://dreamborn.ink/decks/Xk1wFdToEUoyeb1tvU6V (saved to all_cards.txt on 2024-03-25).
+I tested this on all 1020 cards using the exports in dreamborn_export-examples (up through set 5 on Sept. 10, 2024)
 
 I successfully exported that into the template, uploaded to Draftmancer, drafted 24 cards, then imported to dreamborn.
