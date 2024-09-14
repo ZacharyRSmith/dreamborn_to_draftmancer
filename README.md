@@ -1,4 +1,4 @@
-I think I just created the fastest, easiest way to draft Lorcana online. If there is an easier or faster way to draft, please let me know at zacharysmith4989@gmail.com !
+# UPDATE: This repo is deprecated in favor of Dru Erridge's awesome work. Please use it instead! https://github.com/druerridge/dreamborn_to_draftmancer
 
 A video tutorial on how to draft as either a non-host participant or a host: https://www.youtube.com/watch?v=lm1xPenIKQg
 
