@@ -10203,6 +10203,7 @@
 ]
 [Settings]
 {
-    "boostersPerPlayer": 4
+    "boostersPerPlayer": 4,
+    "cardBack": "https://wiki.mushureport.com/images/thumb/d/d7/Card_Back_official.png/450px-Card_Back_official.png"
 }
 [MainSlot(12)]

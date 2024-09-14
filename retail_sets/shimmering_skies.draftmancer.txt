@@ -10207,55 +10207,20 @@
     "name": "Shimmering Skies",
     "withReplacement": true
 }
-[CommonSlot(6)]
-1 Rutt - Northern Moose
-1 Kenai - Big Brother
-1 Vanellope von Schweetz - Sugar Rush Champ
-1 Tuke - Northern Moose
-1 Lilo - Junior Cake Decorator
-1 Vanellope von Schweetz - Candy Mechanic
-1 Fix-It Felix, Jr. - Trusty Builder
-1 Gazelle - Pop Star
-1 Fix-It Felix, Jr. - Delighted Sightseer
-1 Minnie Mouse - Compassionate Friend
-1 Healing Touch
-1 Healing Decanter
-1 The Nokk - Mythical Spirit
-1 Cogsworth - Illuminary Watchman
-1 Merlin - Turtle
-1 Archimedes - Exasperated Owl
-1 Earth Giant - Living Mountain
-1 Gale - Wind Spirit
-1 White Rabbit - Royal Herald
-1 Maleficent - Vengeful Sorceress
-1 Anna - Eager Acolyte
-1 Hypnotic Strength
-1 Gathering Knowledge And Wisdom
-1 Retrosphere
-1 Zazu - Advisor to Mufasa
-1 Ulf - Mime
-1 Ed - Laughing Hyena
-1 Flora - Good Fairy
-1 Merryweather - Good Fairy
-1 Robin Hood - Archery Contestant
-1 Fauna - Good Fairy
-1 Clarabelle - Clumsy Guest
-1 Banzai - Taunting Hyena
-1 Hypnotic Deduction
-1 Night Howler Rage
-1 Obscurosphere
-1 Rancis Fluggerbutter - Chocolate Charger
-1 Snowanna Rainbeau - Cool Competitor
-1 Daisy Duck - Spotless Food-Fighter
-1 Mickey Mouse - Enthusiastic Dancer
-1 Ratigan - Raging Rat
-1 Taffyta Muttonfudge - Crowd Favorite
-1 Pete - Pastry Chomper
-1 Donald Duck - Daisy's Date
-1 Simba - Adventurous Successor
-1 Break Free
-1 Evil Comes Prepared
-1 Potion of Might
+[CommonSlotSteel(1)]
+1 Simba - Lost Prince
+1 Rudy - Groove Disrupter
+1 Royal Guard - Bovine Protector
+1 Mickey Mouse - Food Fight Defender
+1 Kronk - Unlicensed Investigator
+1 HeiHei - Protective Rooster
+1 Sneezy - Noisy Knight
+1 Dopey - Knight Apprentice
+1 Happy - Lively Knight
+1 When Will My Life Begin?
+1 Duck for Cover!
+1 Shield of Arendelle
+[CommonSlotSapphire(1)]
 1 King Candy - Sovereign of Sugar
 1 Chaca - Impressive Daughter
 1 The Queen - Cruelest of All
@@ -10268,17 +10233,58 @@
 1 Vision of the Future
 1 Ever as Before
 1 Medal of Heroes
-1 Simba - Lost Prince
-1 Rudy - Groove Disrupter
-1 Royal Guard - Bovine Protector
-1 Mickey Mouse - Food Fight Defender
-1 Kronk - Unlicensed Investigator
-1 HeiHei - Protective Rooster
-1 Sneezy - Noisy Knight
-1 Dopey - Knight Apprentice
-1 Happy - Lively Knight
-1 When Will My Life Begin?
-1 Duck for Cover!
+[CommonSlotRuby(1)]
+1 Rancis Fluggerbutter - Chocolate Charger
+1 Snowanna Rainbeau - Cool Competitor
+1 Daisy Duck - Spotless Food-Fighter
+1 Mickey Mouse - Enthusiastic Dancer
+1 Ratigan - Raging Rat
+1 Taffyta Muttonfudge - Crowd Favorite
+1 Pete - Pastry Chomper
+1 Donald Duck - Daisy's Date
+1 Simba - Adventurous Successor
+1 Break Free
+1 Evil Comes Prepared
+1 Potion of Might
+[CommonSlotEmerald(1)]
+1 Zazu - Advisor to Mufasa
+1 Ulf - Mime
+1 Ed - Laughing Hyena
+1 Flora - Good Fairy
+1 Merryweather - Good Fairy
+1 Robin Hood - Archery Contestant
+1 Fauna - Good Fairy
+1 Clarabelle - Clumsy Guest
+1 Banzai - Taunting Hyena
+1 Hypnotic Deduction
+1 Night Howler Rage
+1 Obscurosphere
+[CommonSlotAmethyst(1)]
+1 The Nokk - Mythical Spirit
+1 Cogsworth - Illuminary Watchman
+1 Merlin - Turtle
+1 Archimedes - Exasperated Owl
+1 Earth Giant - Living Mountain
+1 Gale - Wind Spirit
+1 White Rabbit - Royal Herald
+1 Maleficent - Vengeful Sorceress
+1 Anna - Eager Acolyte
+1 Hypnotic Strength
+1 Gathering Knowledge And Wisdom
+1 Retrosphere
+[CommonSlotAmber(1)]
+1 Rutt - Northern Moose
+1 Kenai - Big Brother
+1 Vanellope von Schweetz - Sugar Rush Champ
+1 Tuke - Northern Moose
+1 Lilo - Junior Cake Decorator
+1 Vanellope von Schweetz - Candy Mechanic
+1 Fix-It Felix, Jr. - Trusty Builder
+1 Gazelle - Pop Star
+1 Fix-It Felix, Jr. - Delighted Sightseer
+1 Minnie Mouse - Compassionate Friend
+1 Healing Touch
+1 Healing Decanter
 [UncommonSlot(3)]
 1 Grumpy - Skeptical Knight
 1 Nala - Mischievous Cub
