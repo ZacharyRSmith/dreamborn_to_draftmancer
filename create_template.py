@@ -201,7 +201,8 @@ def write_draftmancer_file(custom_card_list, id_to_tts_card, id_to_dreamborn_nam
     with open(file_name, 'w', encoding="utf-8") as f:
         settings = {
                     'boostersPerPlayer': boosters_per_player,
-                    'name': card_list_name
+                    'name': card_list_name,
+                    'cardBack': 'https://wiki.mushureport.com/images/thumb/d/d7/Card_Back_official.png/450px-Card_Back_official.png'
         }
         if color_balance_packs == True:
             settings['colorBalance'] = True
